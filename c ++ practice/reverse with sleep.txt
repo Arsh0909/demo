@@ -1,0 +1,32 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+#include <unistd.h>
+using namespace std;
+char loading(){
+   for (int i =0;i<3 ; i++){
+    cout <<" _ "<<flush;
+    sleep(1);
+    }
+    
+}
+int main() {
+    int a,r;
+    string s;
+    cout << "hii enter the number :";cin >> a;
+   
+    cout<<"loading" << loading()<<endl;
+    s = to_string(a);
+    r = s.size();
+    
+    cout<<"number of inputs enters are "<<r<<endl;sleep(2);
+    cout<<"And the revrse is as following"<<endl;
+    cout<<"loading"<<loading()<<endl;
+    for(int j =r-1;j>=0;j--)
+    {
+        cout<<s[j]<<flush;sleep(1);
+    }
+
+ 
+
+    return 0;
+}

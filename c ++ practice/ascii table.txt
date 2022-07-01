@@ -1,0 +1,29 @@
+//  C++ program convertion of Ascii table 
+#include <iostream>
+using namespace std;
+int main() {
+
+    char choice ;
+   
+    cout<<"What you wanna convert :"<<endl;
+    cout << "please press a for int to char"<<"\t\t"<<"please press b for char to int "<<endl;
+    cin >> choice;
+    
+    switch(choice){
+     case 'a':
+     int k;
+    cout<< "Enter the value :";
+    cin>> k;
+    // cout << a<<endl;
+    cout << static_cast<char>(k)<<endl;
+    break;
+    case 'b':
+    char j;
+    cout<< "Enter the character  :";
+    cin>> j;
+    // cout << a<<endl;
+    cout << static_cast<int>(j)<<endl;
+        }
+
+    return 0;
+}

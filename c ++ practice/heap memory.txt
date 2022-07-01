@@ -1,0 +1,15 @@
+// Online C++ compiler to run C++ program using heap or dynamic memoty
+#include <iostream>
+using namespace std;
+
+int main() {
+    int *ti{};
+    ti =new int;
+    
+    *ti = 76;
+    cout <<*ti<<"\t "<<ti<<endl;
+    delete ti;
+ cout << *ti<<"\t"<<ti;
+
+    return 0;
+}

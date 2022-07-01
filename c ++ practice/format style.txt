@@ -1,0 +1,22 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+#include <iomanip>
+using namespace std;
+int main() {
+   
+    cout << " unformated table"<<endl;
+    cout << "arsh"<<" "<<"singh"<<" "<<"24"<<endl;
+    cout << "amira"<<" "<<"singh"<<" "<<"21"<<endl;
+    cout <<endl;
+    cout <<endl;
+    cout <<endl;
+    cout << " formated table"<<endl;
+    cout << left ;
+    cout << setw(15) << "First Name"<< setw(15) << "Last Name"<< setw(10) << "Age"<<endl;
+    cout << setw(15) << "Arsh"<< setw(15) << "Atwal"<< setw(10) << "23"<<endl;
+    cout << setw(15) << "Amira"<< setw(15) << "Atwal"<< setw(10) << "17" <<endl ;
+   
+   
+
+    return 0;
+}

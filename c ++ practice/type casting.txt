@@ -1,0 +1,21 @@
+// type casting int to string then print the reverse of number 
+
+	
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a;
+    cout << "please enter the number :"<< endl;
+    cin >> a ;
+    string b = to_string(a);
+    int c = b.size();
+    cout << "size of Number enter by user is :" <<b << c <<endl;
+    cout<<"The reverse of number "<< b<<" is ";
+    for (int i=c-1 ;i >=0;i--)
+    {
+        cout<< b[i];
+    }
+    
+    return 0;
+}
